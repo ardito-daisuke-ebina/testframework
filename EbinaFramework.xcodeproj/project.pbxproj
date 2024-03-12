@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82C639442B9FF2AE00981A6A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 82C639432B9FF2AE00981A6A /* Alamofire */; settings = {ATTRIBUTES = (Weak, ); }; };
+		82EB3E272B9ACF67005C0734 /* EbinaFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 82EB3E262B9ACF67005C0734 /* EbinaFramework.docc */; };
+		82EB3E2D2B9ACF67005C0734 /* EbinaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EB3E222B9ACF67005C0734 /* EbinaFramework.framework */; };
+		82EB3E322B9ACF67005C0734 /* EbinaFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB3E312B9ACF67005C0734 /* EbinaFrameworkTests.swift */; };
+		82EB3E332B9ACF67005C0734 /* EbinaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EB3E252B9ACF67005C0734 /* EbinaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82EB3E4D2B9B1662005C0734 /* TestMoya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB3E4B2B9B1662005C0734 /* TestMoya.swift */; };
+		82EB3E4E2B9B1662005C0734 /* Abc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB3E4C2B9B1662005C0734 /* Abc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82EB3E2E2B9ACF67005C0734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82EB3E192B9ACF67005C0734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EB3E212B9ACF67005C0734;
+			remoteInfo = EbinaFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82EB3E222B9ACF67005C0734 /* EbinaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EbinaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EB3E252B9ACF67005C0734 /* EbinaFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EbinaFramework.h; sourceTree = "<group>"; };
+		82EB3E262B9ACF67005C0734 /* EbinaFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EbinaFramework.docc; sourceTree = "<group>"; };
+		82EB3E2C2B9ACF67005C0734 /* EbinaFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EbinaFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EB3E312B9ACF67005C0734 /* EbinaFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbinaFrameworkTests.swift; sourceTree = "<group>"; };
+		82EB3E4B2B9B1662005C0734 /* TestMoya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMoya.swift; sourceTree = "<group>"; };
+		82EB3E4C2B9B1662005C0734 /* Abc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abc.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EB3E1F2B9ACF67005C0734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C639442B9FF2AE00981A6A /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB3E292B9ACF67005C0734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB3E2D2B9ACF67005C0734 /* EbinaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EB3E182B9ACF67005C0734 = {
+			isa = PBXGroup;
+			children = (
+				82EB3E242B9ACF67005C0734 /* EbinaFramework */,
+				82EB3E302B9ACF67005C0734 /* EbinaFrameworkTests */,
+				82EB3E232B9ACF67005C0734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EB3E232B9ACF67005C0734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EB3E222B9ACF67005C0734 /* EbinaFramework.framework */,
+				82EB3E2C2B9ACF67005C0734 /* EbinaFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EB3E242B9ACF67005C0734 /* EbinaFramework */ = {
+			isa = PBXGroup;
+			children = (
+				82EB3E4C2B9B1662005C0734 /* Abc.swift */,
+				82EB3E4B2B9B1662005C0734 /* TestMoya.swift */,
+				82EB3E252B9ACF67005C0734 /* EbinaFramework.h */,
+				82EB3E262B9ACF67005C0734 /* EbinaFramework.docc */,
+			);
+			path = EbinaFramework;
+			sourceTree = "<group>";
+		};
+		82EB3E302B9ACF67005C0734 /* EbinaFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				82EB3E312B9ACF67005C0734 /* EbinaFrameworkTests.swift */,
+			);
+			path = EbinaFrameworkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82EB3E1D2B9ACF67005C0734 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB3E332B9ACF67005C0734 /* EbinaFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82EB3E212B9ACF67005C0734 /* EbinaFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EB3E362B9ACF67005C0734 /* Build configuration list for PBXNativeTarget "EbinaFramework" */;
+			buildPhases = (
+				82EB3E1D2B9ACF67005C0734 /* Headers */,
+				82EB3E1E2B9ACF67005C0734 /* Sources */,
+				82EB3E1F2B9ACF67005C0734 /* Frameworks */,
+				82EB3E202B9ACF67005C0734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EbinaFramework;
+			packageProductDependencies = (
+				82C639432B9FF2AE00981A6A /* Alamofire */,
+			);
+			productName = EbinaFramework;
+			productReference = 82EB3E222B9ACF67005C0734 /* EbinaFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82EB3E2B2B9ACF67005C0734 /* EbinaFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EB3E392B9ACF67005C0734 /* Build configuration list for PBXNativeTarget "EbinaFrameworkTests" */;
+			buildPhases = (
+				82EB3E282B9ACF67005C0734 /* Sources */,
+				82EB3E292B9ACF67005C0734 /* Frameworks */,
+				82EB3E2A2B9ACF67005C0734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82EB3E2F2B9ACF67005C0734 /* PBXTargetDependency */,
+			);
+			name = EbinaFrameworkTests;
+			productName = EbinaFrameworkTests;
+			productReference = 82EB3E2C2B9ACF67005C0734 /* EbinaFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EB3E192B9ACF67005C0734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					82EB3E212B9ACF67005C0734 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					82EB3E2B2B9ACF67005C0734 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 82EB3E1C2B9ACF67005C0734 /* Build configuration list for PBXProject "EbinaFramework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82EB3E182B9ACF67005C0734;
+			packageReferences = (
+				82C639422B9FF2AE00981A6A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 82EB3E232B9ACF67005C0734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EB3E212B9ACF67005C0734 /* EbinaFramework */,
+				82EB3E2B2B9ACF67005C0734 /* EbinaFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EB3E202B9ACF67005C0734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB3E2A2B9ACF67005C0734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EB3E1E2B9ACF67005C0734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB3E4E2B9B1662005C0734 /* Abc.swift in Sources */,
+				82EB3E272B9ACF67005C0734 /* EbinaFramework.docc in Sources */,
+				82EB3E4D2B9B1662005C0734 /* TestMoya.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB3E282B9ACF67005C0734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB3E322B9ACF67005C0734 /* EbinaFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82EB3E2F2B9ACF67005C0734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82EB3E212B9ACF67005C0734 /* EbinaFramework */;
+			targetProxy = 82EB3E2E2B9ACF67005C0734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82EB3E342B9ACF67005C0734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82EB3E352B9ACF67005C0734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82EB3E372B9ACF67005C0734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5H76R8348H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = aaaa.ccceee.EbinaFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82EB3E382B9ACF67005C0734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5H76R8348H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = aaaa.ccceee.EbinaFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82EB3E3A2B9ACF67005C0734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H76R8348H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaaa.ccceee.EbinaFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82EB3E3B2B9ACF67005C0734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H76R8348H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaaa.ccceee.EbinaFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EB3E1C2B9ACF67005C0734 /* Build configuration list for PBXProject "EbinaFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB3E342B9ACF67005C0734 /* Debug */,
+				82EB3E352B9ACF67005C0734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EB3E362B9ACF67005C0734 /* Build configuration list for PBXNativeTarget "EbinaFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB3E372B9ACF67005C0734 /* Debug */,
+				82EB3E382B9ACF67005C0734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EB3E392B9ACF67005C0734 /* Build configuration list for PBXNativeTarget "EbinaFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB3E3A2B9ACF67005C0734 /* Debug */,
+				82EB3E3B2B9ACF67005C0734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		82C639422B9FF2AE00981A6A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82C639432B9FF2AE00981A6A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82C639422B9FF2AE00981A6A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 82EB3E192B9ACF67005C0734 /* Project object */;
+}
